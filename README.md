@@ -54,5 +54,6 @@ git clone https://github.com/Walkersifolia/illustration.git ./illustration
 
 ## 特别感谢
 B19 UI设计、单js插件版本制作：[七星QXX](https://github.com/QiXingQXX)
+
 PhigrosLibrary服务端：[万能の文酱](https://github.com/7aGiven)
 
