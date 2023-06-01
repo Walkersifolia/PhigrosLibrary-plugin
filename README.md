@@ -3,6 +3,7 @@
 # 单插件版本（.js）
 
 如果不想要高清曲绘，以及其他功能，可以下载单插件版本，由[@七星QXX](https://github.com/QiXingQXX)制作
+
 [下载链接](https://github.com/QiXingQXX/Phigros-picture-generater)
 
 ## 安装插件
