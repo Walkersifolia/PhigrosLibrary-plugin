@@ -49,6 +49,6 @@ git clone https://github.com/Walkersifolia/illustration.git ./illustration
 
 ## 效果预览
 
-#### B19成绩图
+#### B19成绩图（技术太菜了，大佬轻喷）
 ![}Y7J X)J%)~QG KB KUWSTV](https://github.com/Walkersifolia/PhigrosLibrary-Plugin/assets/129571444/663318fb-ade1-4345-8661-956c7e0d7a6c)
 
