@@ -18,4 +18,4 @@ git clone https://github.com/Walkersifolia/illustration.git ./illustration
 
 #### 3.下载音乐资源（可选，但不建议选）
 
-音乐资源，全曲约占用4.4GB，目前还在找可靠的下载及存放方式
+全部的音乐资源，全曲约占用4.4GB，目前还在找可靠的下载及存放方式
