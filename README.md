@@ -23,7 +23,7 @@ git clone https://github.com/Walkersifolia/illustration.git ./illustration
 ## 使用方法
 #### 指令列表
 | 功能简述 | 指令 | 备注 |
-|------| ----- | ------ |
+|------| ------ | ------ |
 |获取帮助|/p help|获取本帮助信息|
 |绑定stk|/p bind xxx|xxx为25位的SessionToken，下面会讲到获取方法，本指令可以但不建议在群聊使用|
 |B19成绩图|/p b19|根据绑定的SessionToken渲染B19成绩图|
