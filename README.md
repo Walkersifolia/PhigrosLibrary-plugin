@@ -32,7 +32,7 @@ git clone https://github.com/Walkersifolia/illustration.git ./illustration
 
 [PhigrosLibrary项目地址](https://github.com/7aGiven/PhigrosLibrary)
 
-下载名为`PhigrosRpc-3.x.x.x-jre17.zip`（版本号会更新，主要是要带jre-17）的Release，解压之后放在任意地方，双击启动`start.cmd`，如果不想要窗口可以右键`start.cmd`，选择编辑，然后在最后一行换行输入`nogui`
+去Releases里，找到并下载下载名为`PhigrosRpc-3.x.x.x-jre17.zip`（版本号会更新，主要是要带jre-17）的Release，解压之后放在任意地方，双击启动`start.cmd`，如果不想要窗口可以右键`start.cmd`，选择编辑，然后在最后一行换行输入`nogui`（当然我并不建议这么做因为开启服务端窗口能更好的检测到报错）
 
 ## 使用方法
 #### 指令列表
