@@ -4,14 +4,14 @@
 #### 1.下载插件本体
 
 在云崽根目录下打开Git Bash终端，运行
-```
+```bash
 git clone https://github.com/Walkersifolia/PhigrosLibrary-Plugin.git ./plugins/PhigrosLibrary-Plugin
 ```
 
 #### 2.下载曲绘资源
 
 不要关闭Git Bash终端，继续运行
-```
+```bash
 cd plugins/PhigrosLibrary-Plugin/resources
 git clone https://github.com/Walkersifolia/illustration.git ./illustration
 ```
