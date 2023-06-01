@@ -38,13 +38,13 @@ git clone https://github.com/Walkersifolia/illustration.git ./illustration
 #### 指令列表
 | 功能简述 | 指令 | 备注 |
 | ------------------ | ------------------------------ | ------ |
-|获取帮助|/p help|获取本帮助信息|
-|绑定stk|/p bind xxx|xxx为25位的SessionToken，下面会讲到获取方法，本指令可以但不建议在群聊使用|
-|B19成绩图|/p b19|根据绑定的SessionToken渲染B19成绩图|
-|期望歌曲|/p (expect/suggest)|这里出现的歌曲不在B19里，但是达到了一定的acc就可以进入B19（推分专用）|
-|查看stk|/p stk|查看已绑定的SessionToken，本指令可以但不建议在群聊使用|
-|Phigros点歌|/p music|制作中，暂未完成|
-|获取stk|/p (getstk/bindhelp)|获取SessionToken的方法|
+|获取帮助|`/p help`|获取本帮助信息|
+|绑定stk|`/p bind xxx`|xxx为25位的SessionToken，下面会讲到获取方法，本指令可以但不建议在群聊使用|
+|B19成绩图|`/p b19`|根据绑定的SessionToken渲染B19成绩图|
+|期望歌曲|`/p (expect/suggest)`|这里出现的歌曲不在B19里，但是达到了一定的acc就可以进入B19（推分专用）|
+|查看stk|`/p stk`|查看已绑定的SessionToken，本指令可以但不建议在群聊使用|
+|Phigros点歌|`/p music`|制作中，暂未完成|
+|获取stk|`/p (getstk/bindhelp)`|获取SessionToken的方法|
 
 ## 效果预览
 
