@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import { exec } from 'child_process'
 
-fs.readFile('./plugins/PhigrosLibrary-plugin/start.js', 'utf-8', (err, data) => {
+fs.readFile('./plugins/PhigrosLibrary-plugin/data/userdata/start.js', 'utf-8', (err, data) => {
     if (err) throw err;
     logger.info(data)
 });
