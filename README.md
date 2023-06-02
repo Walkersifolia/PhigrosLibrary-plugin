@@ -39,7 +39,14 @@ git clone https://github.com/Walkersifolia/illustrationLowRes.git ./illustration
 
 [PhigrosLibrary项目地址](https://github.com/7aGiven/PhigrosLibrary)
 
+#### Windows用户
 去Releases里，找到并下载下载名为`PhigrosRpc-3.x.x.x-jre17.zip`（版本号会更新，必须要带有jre17字样）的Release，解压之后放在任意地方，双击启动`start.cmd`，如果不想要窗口可以右键`start.cmd`，选择编辑，然后在最后一行换行输入`nogui`（当然我并不建议这么做因为开启服务端窗口能更好的检测到报错）
+
+#### Linux用户
+去Releases里，找到并下载名为`PhigrosRpc-3.x.x.x-nojre.zip`（版本号会更新，必须要带有jre17字样）的Release，解压之后放在任意地方，想办法运行`start.sh`（由于我不是Linux系统所以我没有试过，据说可以）
+
+#### MacOS用户
+我穷，用不起MacOS，身边也没有用户（
 
 ## 注意事项（必看！！！）
 ### 关于控制台报错
