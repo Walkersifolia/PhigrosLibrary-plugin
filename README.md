@@ -62,7 +62,7 @@ git clone https://github.com/Walkersifolia/illustration.git ./illustration
 ![}Y7J X)J%)~QG KB KUWSTV](https://github.com/Walkersifolia/PhigrosLibrary-Plugin/assets/129571444/663318fb-ade1-4345-8661-956c7e0d7a6c)
 
 ## 特别感谢
-B19 UI设计、单js插件版本制作：[七星QXX](https://github.com/QiXingQXX)
+B19 UI设计、单js插件版本制作、跨域脚本和文件服务器：[七星QXX](https://github.com/QiXingQXX)
 
 PhigrosLibrary服务端：[万能の文酱](https://github.com/7aGiven)
 
