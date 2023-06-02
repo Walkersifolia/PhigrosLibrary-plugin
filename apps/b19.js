@@ -44,7 +44,7 @@ export class phigros extends plugin{
         // 打开一个新页面
         const page = await browser.newPage();
         // 导航到特定 URL
-        await page.goto('http://127.0.0.1:9091/?name=' + encodeURIComponent(e.nickname) + '#' + sessiontoken);
+        await page.goto('http://127.0.0.1:9091/index.html?name=' + encodeURIComponent(e.nickname) + '#' + sessiontoken);
         // 截取页面图像
         setTimeout(async () => {
             await page.setViewport({ width: 1030, height: 3670 });
