@@ -51,7 +51,7 @@ git clone https://github.com/Walkersifolia/illustrationLowRes.git ./illustration
 ## 注意事项（必看！！！）
 ### 关于控制台报错
 
-有时，控制台会报错`Error: net::ERR_CONNECTION_REFUSED`，这是由于文件服务器以及跨域脚本没有自动启用导致的，理论上来说Yunzai启动加载插件时会自动启动脚本，但出现此情况，你可以到插件文件夹去`./plugins/PhigrosLibrary-Plugin/res/b19`手动点击`p-start.bat`启动。
+有时，控制台会报错`Error: net::ERR_CONNECTION_REFUSED`，这是由于文件服务器以及跨域脚本没有自动启用导致的，理论上来说Yunzai启动加载插件时会自动启动脚本，但出现此情况，你可以到插件文件夹去`./plugins/PhigrosLibrary-Plugin/res/b19`手动点击`p-start.bat`启动，Linux系统执行`p-start.sh`。
 
 ### 关于`p-start.bat`启动报错
 
