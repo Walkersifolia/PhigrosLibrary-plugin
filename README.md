@@ -9,7 +9,7 @@
 [下载链接](https://github.com/QiXingQXX/Phigros-picture-generater)
 
 ## 安装插件
-#### 1.下载插件本体
+### 1.下载插件本体
 
 在云崽根目录下打开Git Bash终端，运行
 ```bash
