@@ -49,7 +49,7 @@ git clone https://github.com/Walkersifolia/illustration.git ./illustration
 | ------------------ | ------------------------------ | ------ |
 |获取帮助|`/p help`|获取本帮助信息|
 |绑定stk|`/p bind xxx`|xxx为25位的SessionToken，下面会讲到获取方法，本指令可以但不建议在群聊使用|
-|B19成绩图|`/p b19`|根据绑定的SessionToken渲染B19成绩图|
+|B19成绩图|`/p b19`|根据绑定的SessionToken渲染B19成绩图，背景随机，底部credit栏的RGB渐变颜色随机，如果随机到了一个好看的背景以及一个好看的RGB渐变credit栏，记得保存下来炫耀，让我吸吸（bushi|
 |期望歌曲|`/p (expect/suggest)`|这里出现的歌曲不在B19里，但是达到了一定的acc就可以进入B19（推分专用）|
 |查看stk|`/p stk`|查看已绑定的SessionToken，本指令可以但不建议在群聊使用|
 |Phigros点歌|`/p music`|制作中，暂未完成|
