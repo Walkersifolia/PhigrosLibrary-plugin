@@ -20,7 +20,7 @@ git clone https://github.com/Walkersifolia/PhigrosLibrary-Plugin.git ./plugins/P
 
 不要关闭Git Bash终端，继续运行
 ```bash
-cd plugins/PhigrosLibrary-Plugin/resources
+cd plugins/PhigrosLibrary-Plugin/model/b19/res
 git clone https://github.com/Walkersifolia/illustration.git ./illustration
 ```
 
