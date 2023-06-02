@@ -1,5 +1,5 @@
-import http from 'http'
-import httpProxy from 'http-proxy'
+const http = require("http");
+const httpProxy = require("http-proxy");
 
 var proxy = httpProxy.createProxyServer();
 

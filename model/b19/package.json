@@ -1,0 +1,49 @@
+{
+  "name": "yunzai",
+  "version": "3.0.0",
+  "author": "Le-niao",
+  "description": "QQ group Bot",
+  "scripts": {
+    "app": "node app.js",
+    "test": "node ./lib/tools/test.js",
+    "login": "node app.js login",
+    "dev": "node app.js dev",
+    "start": "pm2 start ./config/pm2/pm2.json",
+    "stop": "pm2 stop ./config/pm2/pm2.json",
+    "restart": "pm2 restart ./config/pm2/pm2.json",
+    "log": "pm2 logs --lines 400 Yunzai-Bot"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "axios": "^0.27.2",
+    "chalk": "^5.2.0",
+    "chokidar": "^3.5.3",
+    "http-proxy": "^1.18.1",
+    "https-proxy-agent": "5.0.1",
+    "icqq": "^0.3.14",
+    "image-size": "^1.0.2",
+    "inquirer": "^9.1.4",
+    "lodash": "^4.17.21",
+    "log4js": "^6.8.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.0",
+    "node-schedule": "^2.1.1",
+    "node-xlsx": "^0.4.0",
+    "oicq": "^2.3.1",
+    "patch-package": "^6.5.1",
+    "pm2": "^5.3.0",
+    "puppeteer": "^19.8.0",
+    "redis": "^4.6.5",
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "express": "^4.18.2",
+    "express-art-template": "^1.0.1"
+  }
+}
