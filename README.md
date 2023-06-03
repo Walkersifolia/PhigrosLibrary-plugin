@@ -1,5 +1,9 @@
 # PhigrosLibrary-Plugin
-`PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能
+`PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能。
+
+插件目前还暂时是半成品，因为是要测试跨域脚本和文件服务器，还没有添加配置项以及自动更新曲绘和更新指令，想要尝鲜的可以下载，也请及时关注此仓库的更新，更新时注意保存userdata文件夹内的用户数据，我github还没玩太明白，可能直接git clone会导致userdata数据丢失，或许会考虑将数据存入redis。
+
+
 # 单插件版本（.js）
 
 如果不想要高清曲绘以及其他功能，可以下载单插件版本，单插件版本只有B19功能，然后放到`./plugins/example`文件夹
@@ -58,6 +62,7 @@ git clone https://github.com/Walkersifolia/illustrationLowRes.git ./illustration
 由于一些奇怪而且我也不知道为什么的原因，启动跨域脚本时会出现缺失模块或者模块不可用的提示，可以点击下面的`运行p.js报错点我.bat`，如果连这个bat也报错了(理论上来说是不会的)，那请提issue或者直接加我QQ：903895182，然后好友申请信息说明情况，一般情况下只要没课我是高强度看QQ的。
 
 ### 关于Linux系统的使用
+
 在进行了以上这些步骤之后，若您还有一些问题，这里或许可以帮到您。
 1.在第四个步骤下载并运行服务端，若启动后提示Error:Unable to access jarfile PhigrosRpc-3.xxx-all.jar
 请检查文件名PhigrosRpc-3.xxx-all.jar是否正确，另外请使用pm2/screen等后台存活程序使服务端文件保持后台运行(请自行百度
