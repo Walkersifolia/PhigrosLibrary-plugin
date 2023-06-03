@@ -21,6 +21,10 @@ export class phigros extends plugin{
                 {
                     reg: '/p help',
                     fnc: 'help'
+                },
+                {
+                    reg: '/p (getstk|bindhelp)',
+                    fnc: 'getstk'
                 }
             ]
         })
@@ -28,5 +32,9 @@ export class phigros extends plugin{
 
     async help () {
         await this.reply(content)
+    }
+
+    async getstk () {
+        await this.reply('http://qxsky.top:886/externalLinksController/chain/getstk.apk?ckey=UbcekU4SrbrP56nuuJsjSG4sR6XVva0QpH6cgRxykQ%2BLVKfVVy1N9ftDKol27wSM')
     }
 }
