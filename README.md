@@ -57,6 +57,10 @@ git clone https://github.com/Walkersifolia/illustrationLowRes.git ./illustration
 
 由于一些奇怪而且我也不知道为什么的原因，启动跨域脚本时会出现缺失模块或者模块不可用的提示，可以点击下面的`运行p.js报错点我.bat`，如果连这个bat也报错了(理论上来说是不会的)，那请提issue或者直接加我QQ：903895182，然后好友申请信息说明情况，一般情况下只要没课我是高强度看QQ的。
 
+### 关于Linux系统的使用
+
+
+
 ## 使用方法
 ### 指令列表
 | 功能简述 | 指令 | 备注 |
