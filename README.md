@@ -1,5 +1,8 @@
 # PhigrosLibrary-Plugin
 `PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能
+
+插件目前还暂时是半成品，因为是要测试跨域脚本和文件服务器，还没有添加配置项以及自动更新曲绘和更新指令
+
 # 单插件版本（.js）
 
 如果不想要高清曲绘以及其他功能，可以下载单插件版本，单插件版本只有B19功能，然后放到`./plugins/example`文件夹
