@@ -23,7 +23,7 @@ git clone https://github.com/Walkersifolia/PhigrosLibrary-Plugin.git ./plugins/P
 
 ### 2.下载曲绘资源
 
-不要关闭Git Bash终端，继续运行下面的命令，二选一
+在云崽根目录下打开Git Bash终端，运行
 #### 想要高清曲绘执行（约500MB）
 ```bash
 cd plugins/PhigrosLibrary-Plugin/model/b19/res
@@ -36,9 +36,14 @@ cd plugins/PhigrosLibrary-Plugin/model/b19/res
 git clone https://github.com/Walkersifolia/illustrationLowRes.git ./illustration
 ```
 
-### 3.下载音乐资源（可选，但不建议选）
+### 3.下载音乐资源（约200MB）
 
-全部的音乐资源，全曲约占用4.4GB，目前还在找可靠的下载及存放方式
+啊还是在Yunzai根目录啊，执行
+```bash
+cd plugins/PhigrosLibrary-Plugin/resources
+git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
+```
+
 
 ### 4.下载PhigrosLibrary服务端
 
