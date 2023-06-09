@@ -18,7 +18,7 @@
 
 在云崽根目录下打开Git Bash终端，运行
 ```bash
-git clone https://github.com/Walkersifolia/PhigrosLibrary-Plugin.git ./plugins/PhigrosLibrary-Plugin
+git clone https://github.com/Walkersifolia/PhigrosLibrary-plugin.git ./plugins/PhigrosLibrary-plugin
 ```
 
 ### 2.下载曲绘资源
@@ -26,13 +26,13 @@ git clone https://github.com/Walkersifolia/PhigrosLibrary-Plugin.git ./plugins/P
 在云崽根目录下打开Git Bash终端，运行
 #### 想要高清曲绘执行（约500MB）
 ```bash
-cd plugins/PhigrosLibrary-Plugin/model/b19/res
+cd plugins/PhigrosLibrary-plugin/model/b19/res
 git clone https://github.com/Walkersifolia/illustration.git ./illustration
 ```
 
 #### 想要较低分辨率曲绘执行（约40MB）
 ```bash
-cd plugins/PhigrosLibrary-Plugin/model/b19/res
+cd plugins/PhigrosLibrary-plugin/model/b19/res
 git clone https://github.com/Walkersifolia/illustrationLowRes.git ./illustration
 ```
 
@@ -40,7 +40,7 @@ git clone https://github.com/Walkersifolia/illustrationLowRes.git ./illustration
 
 啊还是在Yunzai根目录啊，执行
 ```bash
-cd plugins/PhigrosLibrary-Plugin/resources
+cd plugins/PhigrosLibrary-plugin/resources
 git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 ```
 
@@ -61,7 +61,7 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 ## 注意事项（必看！！！）
 ### 关于控制台报错
 
-有时，控制台会报错`Error: net::ERR_CONNECTION_REFUSED`，这是由于文件服务器以及跨域脚本没有自动启用导致的，理论上来说Yunzai启动加载插件时会自动启动脚本，但出现此情况，你可以到插件文件夹去`./plugins/PhigrosLibrary-Plugin/model/res/b19`手动点击`p-start.bat`启动，Linux系统执行`p-start.sh`。
+有时，控制台会报错`Error: net::ERR_CONNECTION_REFUSED`，这是由于文件服务器以及跨域脚本没有自动启用导致的，理论上来说Yunzai启动加载插件时会自动启动脚本，但出现此情况，你可以到插件文件夹去`./plugins/PhigrosLibrary-plugin/model/res/b19`手动点击`p-start.bat`启动，Linux系统执行`p-start.sh`。
 
 ### 关于`p-start.bat`启动报错
 
