@@ -1,4 +1,4 @@
-# PhigrosLibrary-Plugin
+# PhigrosLibrary-Plugin 暂时不兼容喵崽，在想办法了（咕咕
 `PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能。
 
 插件目前还暂时是半成品，因为是要测试跨域脚本和文件服务器，还没有添加配置项以及自动更新曲绘和更新指令，想要尝鲜的可以下载，也请及时关注此仓库的更新，更新时注意保存userdata文件夹内的用户数据，我github还没玩太明白，可能直接git pull会导致userdata数据丢失，或许会考虑将数据存入redis。
