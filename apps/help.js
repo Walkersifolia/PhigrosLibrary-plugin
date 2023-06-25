@@ -2,7 +2,7 @@ import plugin from '../../../lib/plugins/plugin.js';
 import { segment } from 'icqq';
 
 const helptext =
-  '欢迎使用PhigorsLibrary-Plugn\n' +
+  '欢迎使用PhigrosLibrary-Plugin\n' +
   '「/p help」获取本帮助\n' +
   '「/p bind xxxxxxxxxx」绑定25位的SessionToken，不建议群聊使用\n' +
   '「/p b19」获取自己的b19数据\n' +
