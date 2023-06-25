@@ -21,7 +21,7 @@ logger.info('----------(*ˉ︶ˉ*)----------')
 const files = fs.readdirSync('./plugins/PhigrosLibrary-plugin/apps').filter(file => file.endsWith('.js'))
 
 //启动本插件所需的html跨域脚本及文件服务器
-exec('./plugins/PhigrosLibrary-plugin/model/b19/p-start.bat');
+exec('node "./plugins/PhigrosLibrary-plugin/model/b19/p.js"');
 
 let ret = []
 
