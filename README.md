@@ -1,6 +1,6 @@
 # PhigrosLibrary-Plugin 
 # 暂时不兼容喵崽！
-## 下了会报错，由于我调用的puppeteer模块喵崽并不自带，但是我又不常用喵崽，所以目前还在试图重写两个崽都能用的代码
+## 下了会报错，由于我调用的puppeteer模块喵崽并不自带，但是我又不常用喵崽，所以目前还在试图重写两个崽都能用的代码（直接把puppeteer塞插件里）
 ## 推荐移步[Catrong](https://github.com/catrong)的[phi-plugin](https://github.com/catrong/phi-plugin)项目，由于我是初学者所以写的并不是很好，功能也不是很多（逃
 `PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能。
 
