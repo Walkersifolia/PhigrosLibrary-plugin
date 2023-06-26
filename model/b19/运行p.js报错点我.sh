@@ -1,3 +1,3 @@
 #!/bin/bash
-npm install http -g
-npm install http-proxy
+pnpm install http -g
+pnpm install http-proxy
