@@ -55,7 +55,7 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 去Releases里，找到并下载下载名为`PhigrosRpc-3.x.x.x-jre17.zip`（版本号会更新，必须要带有jre17字样）的Release，解压之后放在任意地方，双击启动`start.cmd`，如果不想要窗口可以右键`start.cmd`，选择编辑，然后在最后一行换行输入`nogui`（当然我并不建议这么做因为开启服务端窗口能更好的检测到报错）
 
 #### Linux用户
-首先要装java运行环境，至少为java17，然后去Releases里，找到并下载名为`PhigrosRpc-3.x.x.x-nojre.zip`（版本号会更新，必须要带有nojre字样）的Release，解压之后放在任意地方，想办法运行`start.sh`，如果运行不了，注意看看.sh文件内启动的jar文件名字是否完全一样。如果提示`Permission denied`字样的执行`sudo chmod -R 777 /PhigrosLibrary`，`PhigrosLibrary`为你存放服务端的路径，自己重命名了就改一下。（由于我不是Linux系统所以我没有试过，据说可以）
+首先要装java运行环境，至少为java17，然后去Releases里，找到并下载名为`PhigrosRpc-3.x.x.x-nojre.zip`（版本号会更新，必须要带有nojre字样）的Release，解压之后放在任意地方，想办法运行`start.sh`，如果运行不了，注意看看.sh文件内启动的jar文件名字是否完全一样。如果提示`Permission denied`字样的执行`sudo chmod -R 777 ./PhigrosLibrary`，`PhigrosLibrary`为你存放服务端的路径，自己重命名了就改一下。（由于我不是Linux系统所以我没有试过，据说可以）
 
 #### MacOS用户
 我穷，用不起MacOS，身边也没有用户（
@@ -63,7 +63,7 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 ## 注意事项（必看！！！）
 ### 关于控制台报错
 
-有时，控制台会报错`Error: net::ERR_CONNECTION_REFUSED`，这是由于文件服务器以及跨域脚本没有自动启用导致的，理论上来说Yunzai启动加载插件时会自动启动脚本，但出现此情况，你可以到插件文件夹去`./plugins/PhigrosLibrary-plugin/model/res/b19`手动点击`p-start.bat`启动，Linux系统执行`p-start.sh`。
+有时，控制台会报错`Error: net::ERR_CONNECTION_REFUSED`，这是由于文件服务器以及跨域脚本没有自动启用导致的，理论上来说Yunzai启动加载插件时会自动启动脚本，但出现此情况，你可以到插件文件夹去`./plugins/PhigrosLibrary-plugin/model/res/b19`手动点击`p-start.bat`启动，Linux系统在终端执行`sh ./p-start.sh`。
 
 ### 关于`p-start.bat`启动报错
 
@@ -72,10 +72,12 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 ### 关于Linux系统的使用
 
 在进行了以上这些步骤之后，若您还有一些问题，这里或许可以帮到您。
-1.在第四个步骤下载并运行服务端，若启动后提示Error:Unable to access jarfile PhigrosRpc-3.xxx-all.jar
-请检查文件名PhigrosRpc-3.xxx-all.jar是否正确，另外请使用pm2/screen等后台存活程序使服务端文件保持后台运行(请自行百度
-2.若启动服务端后云崽后台日志报错，请启动./plugins/PhigrosLibrary/models/运行p.js报错点我.bat待程序结束后再运行./p-start.bat
-也请您使他保持后台存活，另外请记得给这两个文件给予和上面sudo chmod -R 777 /文件名 一样的文件的权限等级，不然也会报错
+
+1.在第四个步骤下载并运行服务端，若启动后提示`Error:Unable to access jarfile PhigrosRpc-3.xxx-all.jar`
+请检查文件名`PhigrosRpc-3.xxx-all.jar`是否正确，另外请使用pm2/screen等后台存活程序使服务端文件保持后台运行(请自行百度
+
+2.若启动服务端后云崽后台日志报错，请在云崽根目录执行`sh ./plugins/PhigrosLibrary/models/运行p.js报错点我.sh`待程序结束后再运行`sh ./plugins/PhigrosLibrary/models/p-start.sh`
+也请您使他保持后台存活，另外请记得给这两个文件给予和上面`sudo chmod -R 777 ./文件名` 一样的文件的权限等级，不然也会报错
 
 
 
@@ -91,8 +93,7 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 |查看stk|`/p stk`|查看已绑定的SessionToken，本指令可以但不建议在群聊使用|
 |Phigros点歌|`/p music`|随机听Phigros的歌曲，还在研究MusicShare的xml消息（以后改|
 |获取stk|`/p (getstk/bindhelp)`|获取SessionToken的方法|
-|XXXXXXXXXX|XXXXXXXXXXXXXXXXXXXX|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
-|更新插件|`/p (force)update`|更新本插件（该命令仅机器人管理员可用）|
+|更新插件|`/p (force)update`|更新/强制更新本插件（该命令仅机器人管理员可用）|
 
 ## 效果预览
 
