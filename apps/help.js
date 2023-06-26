@@ -12,9 +12,9 @@ const helptext =
   '「/p (getstk|bindhelp)」获取SessionToken的软件\n' +
   ' ––––––––––以下为管理员命令––––––––––\n' +
   '「/p (force)update」更新/强制更新本插件\n' +
-  '「/p (force) high ill update」安装（更新/强制更新）高清曲绘\n' +
-  '「/p (force) low ill update」安装（更新/强制更新）低分辨率曲绘\n' +
-  '「/p (force) music update」安装（更新/强制更新）音乐资源'
+  '「/p (force)high ill update」安装（更新/强制更新）高清曲绘\n' +
+  '「/p (force)low ill update」安装（更新/强制更新）低分辨率曲绘\n' +
+  '「/p (force)music update」安装（更新/强制更新）音乐资源'
 
 export class phigros extends plugin{
     constructor() {
