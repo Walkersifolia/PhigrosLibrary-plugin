@@ -138,7 +138,7 @@ export class update extends plugin {
     end =
       "更多详细信息，请前往Github查看\nhttps://github.com/Walkersifolia/PhigrosLibrary-plugin";
 
-    log = await this.makeForwardMsg(`七圣插件更新日志，共${line}条`, log, end);
+    log = await this.makeForwardMsg(`PhigrosLibrary-plugin更新日志，共${line}条`, log, end);
 
     return log;
   }
