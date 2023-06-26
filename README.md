@@ -93,6 +93,7 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 |Phigros点歌|`/p music`|随机听Phigros的歌曲，还在研究MusicShare的xml消息（以后改|
 |获取stk|`/p (getstk/bindhelp)`|获取SessionToken的方法|
 |XXXXXXXXXX|XXXXXXXXXXXXXXXXXXXX|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|更新插件|`/p (force)update`|更新本插件（该命令仅机器人管理员可用）|
 
 ## 效果预览
 
