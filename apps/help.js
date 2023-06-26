@@ -9,7 +9,8 @@ const helptext =
   '「/p (expect|suggest)」获取自己有期望进b19的歌曲' +
   '「/p stk」查看自己的SessionToken，不建议群聊使用\n' +
   '「/p music 歌名」点Phigros的歌曲\n' +
-  '「/p (getstk|bindhelp)」获取SessionToken的软件'
+  '「/p (getstk|bindhelp)」获取SessionToken的软件' +
+  '「/p (force)update」更新本插件（仅机器人管理员可用）'
 
 export class phigros extends plugin{
     constructor() {
