@@ -43,7 +43,7 @@ export class Update extends plugin {
         {
           reg: `^/*p (force )?music update$`,
           fnc: 'updateMusic',
-          desc: '更新音乐'
+          desc: '更新音乐资源'
         }
       ]
     })
@@ -150,18 +150,18 @@ export class Update extends plugin {
       exec(command, {cwd: `${musicPath}`}, function (error, stdout, stderr) {
         console.log(stdout)
         if (/(Already up[ -]to[ -]date|已经是最新的)/.test(stdout)) {
-          e.reply('目前所有音乐都已经是最新了~')
+          e.reply('目前所有音乐资源都已经是最新了~')
           return true
         }
         let numRet = /(\d*) files changed,/.exec(stdout)
         if (numRet && numRet[1]) {
-          e.reply(`报告主人，更新成功，此次更新了${numRet[1]}个音乐~`)
+          e.reply(`报告主人，更新成功，此次更新了${numRet[1]}个音乐资源~`)
           return true
         }
         if (error) {
           e.reply('更新失败！\nError code: ' + error.code + '\n' + error.stack + '\n 请稍后重试。')
         } else {
-          e.reply('音乐更新成功~')
+          e.reply('音乐资源更新成功~')
         }
       })
     } else {
@@ -169,9 +169,9 @@ export class Update extends plugin {
       e.reply('开始尝试安装音乐，可能会需要一段时间，请耐心等待~')
       exec(command, function (error, stdout, stderr) {
         if (error) {
-          e.reply('音乐安装失败！\nError code: ' + error.code + '\n' + error.stack + '\n 请稍后重试。')
+          e.reply('音乐资源安装失败！\nError code: ' + error.code + '\n' + error.stack + '\n 请稍后重试。')
         } else {
-          e.reply('音乐安装成功！您后续也可以通过 /p music update 命令来更新音乐')
+          e.reply('音乐资源安装成功！您后续也可以通过 /p music update 命令来更新音乐资源')
         }
       })
     }
