@@ -165,7 +165,7 @@ export class Update extends plugin {
         }
       })
     } else {
-      command = `git clone https://github.com/Walkersifolia/illustrationLowRes.git "${musicPath}" --depth=1`
+      command = `git clone https://github.com/Walkersifolia/MusicLowRes.git "${musicPath}" --depth=1`
       e.reply('开始尝试安装音乐资源，可能会需要一段时间，请耐心等待~')
       exec(command, function (error, stdout, stderr) {
         if (error) {
