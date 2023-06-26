@@ -105,3 +105,5 @@ B19 UI设计、单js插件版本制作、跨域脚本和文件服务器：[七�
 
 PhigrosLibrary服务端：[万能の文酱](https://github.com/7aGiven)
 
+## 声明
+本项目仅供学习交流使用，严禁用于侵犯 `PHIGROS®`、`Phigros 玩家` 以及 `南京鸽游网络有限公司` 等主体的权益用途！
