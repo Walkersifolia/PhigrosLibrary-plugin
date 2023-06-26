@@ -93,7 +93,11 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 |查看stk|`/p stk`|查看已绑定的SessionToken，本指令可以但不建议在群聊使用|
 |Phigros点歌|`/p music`|随机听Phigros的歌曲，还在研究MusicShare的xml消息（以后改|
 |获取stk|`/p (getstk/bindhelp)`|获取SessionToken的方法|
-|更新插件|`/p (force)update`|更新/强制更新本插件（该命令仅机器人管理员可用）|
+|以下为管理员命令|
+|更新插件|`/p (force)update`|更新/强制更新本插件|
+|安装/更新高清曲绘|`/p (force) high ill update`|安装（更新/强制更新）高清曲绘|
+|安装/更新低分辨率曲绘|`/p (force) low ill update`|安装（更新/强制更新）低分辨率曲绘|
+|安装/更新音乐资源|`/p (force) music update`|安装（更新/强制更新）音乐资源|
 
 ## 效果预览
 
