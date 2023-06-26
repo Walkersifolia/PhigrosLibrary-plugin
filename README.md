@@ -95,9 +95,9 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 |获取stk|`/p (getstk/bindhelp)`|获取SessionToken的方法|
 |以下为管理员命令|
 |更新插件|`/p (force)update`|更新/强制更新本插件|
-|安装/更新高清曲绘|`/p (force) high ill update`|安装（更新/强制更新）高清曲绘|
-|安装/更新低分辨率曲绘|`/p (force) low ill update`|安装（更新/强制更新）低分辨率曲绘|
-|安装/更新音乐资源|`/p (force) music update`|安装（更新/强制更新）音乐资源|
+|安装/更新高清曲绘|`/p (force)high ill update`|安装（更新/强制更新）高清曲绘|
+|安装/更新低分辨率曲绘|`/p (force)low ill update`|安装（更新/强制更新）低分辨率曲绘|
+|安装/更新音乐资源|`/p (force)music update`|安装（更新/强制更新）音乐资源|
 
 ## 效果预览
 
