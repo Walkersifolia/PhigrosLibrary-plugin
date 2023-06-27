@@ -3,10 +3,10 @@ import fs from 'node:fs';
 import puppeteer from '../../../lib/puppeteer/puppeteer.js';
 import fetch from 'node-fetch';
 
-export class phigros extends plugin{
+export class b19 extends plugin{
     constructor() {
         super({
-            name: 'PhigrosLibrary-Plugin',
+            name: 'PhigrosLibrary-plugin',
             dsc: 'b19',
             event: 'message',
             priority: 5000,

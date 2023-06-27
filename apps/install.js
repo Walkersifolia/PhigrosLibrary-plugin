@@ -23,7 +23,7 @@ let uping = false
 /**
  * 处理更新
  */
-export class Update extends plugin {
+export class install extends plugin {
   constructor () {
     super({
       name: 'phigros资源安装',

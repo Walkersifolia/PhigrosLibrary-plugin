@@ -2,7 +2,7 @@ import plugin from '../../../lib/plugins/plugin.js';
 import { segment } from 'icqq';
 
 const helptext =
-  '欢迎使用PhigrosLibrary-Plugin\n' +
+  '欢迎使用PhigrosLibrary-plugin\n' +
   '「/p help」获取本帮助\n' +
   '「/p bind xxxxxxxxxx」绑定25位的SessionToken，不建议群聊使用\n' +
   '「/p b19」获取自己的b19数据\n' +
@@ -16,10 +16,10 @@ const helptext =
   '「/p (force)low ill update」安装（更新/强制更新）低分辨率曲绘\n' +
   '「/p (force)music update」安装（更新/强制更新）音乐资源'
 
-export class phigros extends plugin{
+export class help extends plugin{
     constructor() {
         super({
-            name: 'PhigrosLibrary-Plugin',
+            name: 'PhigrosLibrary-plugin',
             dsc: 'help',
             event: 'message',
             priority: 5000,
