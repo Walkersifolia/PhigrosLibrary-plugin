@@ -12,7 +12,7 @@ export class music extends plugin{
             priority: 5000,
             rule: [
                 {
-                    reg: '/p music',
+                    reg: '^/p music$',
                     fnc: 'music'
                 }
             ]
