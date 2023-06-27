@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
 
-export class TipsPlugin extends plugin {
+export class RandomTips extends plugin {
     constructor() {
         super({
             name: '随机tips',
@@ -19,17 +19,14 @@ export class TipsPlugin extends plugin {
     }
 
     async tips(e) {
-        // 构建 tips.txt 文件的路径
         const filePath = new URL('../resources/tips.txt', import.meta.url);
-
-        // 读取 tips.txt 文件的内容
+        
         const tips = fs.readFileSync(filePath, 'utf-8').split('\n').filter(line => line.trim() !== '');
-
-        // 随机选择一行提示
+        
         const randomIndex = Math.floor(Math.random() * tips.length);
         const randomTip = tips[randomIndex].trim();
 
-        e.reply(randomTip);
+        e.reply("Tips:" + randomTip);
         return true;
     }
 }
