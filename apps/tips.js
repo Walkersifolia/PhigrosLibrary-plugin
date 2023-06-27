@@ -1,6 +1,4 @@
 import plugin from '../../../lib/plugins/plugin.js';
-import { segment } from "icqq";
-import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
 
