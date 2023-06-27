@@ -3,10 +3,10 @@ import fs from 'fs';
 import path from 'path';
 import { segment } from 'icqq';
 
-export class phigros extends plugin{
+export class music extends plugin{
     constructor() {
         super({
-            name: 'PhigrosLibrary-Plugin',
+            name: 'PhigrosLibrary-plugin',
             dsc: 'music',
             event: 'message',
             priority: 5000,

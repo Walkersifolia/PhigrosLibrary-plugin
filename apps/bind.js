@@ -1,10 +1,10 @@
 import plugin from '../../../lib/plugins/plugin.js';
 import fs from 'node:fs';
 
-export class phigros extends plugin{
+export class bind extends plugin{
     constructor() {
         super({
-            name: 'PhigrosLibrary-Plugin',
+            name: 'PhigrosLibrary-plugin',
             dsc: 'bind',
             event: 'message',
             priority: 5000,
