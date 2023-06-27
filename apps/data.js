@@ -25,6 +25,6 @@ export class data extends plugin{
         const numbers = textdata.split(',').map(Number)
         const result = (numbers[2] * 1024 + numbers[1]) + (numbers[0] / 1024)
         const data = result.toFixed(2)
-        e.reply(`你当前拥有${data}MB`)
+        e.reply(`你当前拥有${data}MB`,true)
     }
 }

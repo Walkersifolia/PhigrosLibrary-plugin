@@ -6,6 +6,8 @@ const helptext =
   '「/p help」获取本帮助\n' +
   '「/p bind xxxxxxxxxx」绑定25位的SessionToken，不建议群聊使用\n' +
   '「/p b19」获取自己的b19数据\n' +
+  '「/p re8」重置第八章解锁进度但不清除分数\n' +
+  '「/p data」查看自己所拥有的data数\n' +
   '「/p (expect|suggest)」获取自己有期望进b19的歌曲\n' +
   '「/p stk」查看自己的SessionToken，不建议群聊使用\n' +
   '「/p music 歌名」点Phigros的歌曲\n' +
