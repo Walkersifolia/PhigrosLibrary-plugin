@@ -9,6 +9,7 @@ const helptext =
   '「/p (expect|suggest)」获取自己有期望进b19的歌曲\n' +
   '「/p stk」查看自己的SessionToken，不建议群聊使用\n' +
   '「/p music 歌名」点Phigros的歌曲\n' +
+  '「/p tips」随机发送一条Tips\n' +
   '「/p (getstk|bindhelp)」获取SessionToken的软件\n' +
   ' –––––以下为管理员命令–––––\n' +
   '「/p (force)update」更新/强制更新本插件\n' +
