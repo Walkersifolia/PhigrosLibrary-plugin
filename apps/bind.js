@@ -23,12 +23,18 @@ export class bind extends plugin{
             logger.mark(sessiontoken)
             const userid = `${e.user_id}`
             logger.mark(userid)
-            //写入SessionToken数据文件
+            fetch(`http://127.0.0.1:9090/saveUrl/${sessiontoken}`)
+            .then(res => res.text())
+            .then(text => {
+            if (text === "存档不存在") {
+                e.reply("SessionToken错误，请确保自己获取了正确的SessionToken")
+            } else {
             fs.writeFileSync(`./plugins/PhigrosLibrary-plugin/data/userdata/${userid}.js`, sessiontoken);
-            await e.reply('绑定成功！')
+            e.reply('绑定成功！')
+            }
+        })
         }else{
             e.reply("SessionToken长度错误，应为25位而不是 " + sessiontoken.length + " 位")
         }
-        
     }
 }
