@@ -19,7 +19,7 @@ export class RandomTip extends plugin {
     async tip(e) {
         const filePath = new URL('../resources/tips.txt', import.meta.url);
         
-        const tips = fs.readFileSync(filePath, 'utf-8').split('\n').filter(line => line.trim() !== '');
+        const tip = fs.readFileSync(filePath, 'utf-8').split('\n').filter(line => line.trim() !== '');
         
         const randomIndex = Math.floor(Math.random() * tip.length);
         const randomTip = tip[randomIndex].trim();
