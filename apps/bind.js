@@ -10,7 +10,7 @@ export class bind extends plugin{
             priority: 5000,
             rule: [
                 {
-                    reg: '/p bind ',
+                    reg: '^/p bind ',
                     fnc: 'bind'
                 }
             ]

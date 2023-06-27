@@ -10,7 +10,7 @@ export class data extends plugin{
             priority: 5000,
             rule: [
                 {
-                    reg: '/p data',
+                    reg: '^/p data$',
                     fnc: 'data'
                 }
             ]

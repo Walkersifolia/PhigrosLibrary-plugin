@@ -2,6 +2,7 @@ import plugin from '../../../lib/plugins/plugin.js';
 import fs from 'node:fs';
 import puppeteer from '../../../lib/puppeteer/puppeteer.js';
 import fetch from 'node-fetch';
+import GetData from '../model/userdata/getdata.js';
 
 export class b19 extends plugin{
     constructor() {
@@ -12,7 +13,7 @@ export class b19 extends plugin{
             priority: 5000,
             rule: [
                 {
-                    reg: '/p b19',
+                    reg: '^/p b19$',
                     fnc: 'b19'
                 }
             ]
@@ -20,7 +21,7 @@ export class b19 extends plugin{
     }
 
     async b19 (e) {
-        const userid = `${e.user_id}`
+        /*const userid = `${e.user_id}`
         //Node.js的uncaughtException事件处理程序
         process.on("uncaughtException", function (err) {
             logger.erro(err)
@@ -33,8 +34,10 @@ export class b19 extends plugin{
         }
         //读取用户SessionToken数据
         const sessiontoken = fs.readFileSync(`./plugins/PhigrosLibrary-plugin/data/userdata/${userid}.js`, 'utf-8');
-        logger.info(sessiontoken)
+        logger.info(sessiontoken)*/
         //获取玩家ID
+        const sessiontoken = await GetData.SessionToken(e)
+        logger.info(sessiontoken)
         const player = await fetch(`http://127.0.0.1:9090/playerId/${sessiontoken}`)
         const ID = await player.text()
         logger.info(ID)

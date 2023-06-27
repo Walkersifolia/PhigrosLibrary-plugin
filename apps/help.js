@@ -25,7 +25,7 @@ export class help extends plugin{
             priority: 5000,
             rule: [
                 {
-                    reg: '/p help',
+                    reg: '^/p help$',
                     fnc: 'help'
                 },
                 {
