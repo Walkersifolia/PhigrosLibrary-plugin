@@ -24,7 +24,7 @@ export class RandomTips extends plugin {
         const randomIndex = Math.floor(Math.random() * tips.length);
         const randomTip = tips[randomIndex].trim();
 
-        e.reply("Tips:" + randomTip);
+        e.reply("Tip:" + randomTip);
         return true;
     }
 }

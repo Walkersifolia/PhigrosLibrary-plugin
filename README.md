@@ -94,7 +94,7 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 |期望歌曲|`/p (expect/suggest)`|这里出现的歌曲不在B19里，但是达到了一定的acc就可以进入B19（推分专用）|
 |查看stk|`/p stk`|查看已绑定的SessionToken，本指令可以但不建议在群聊使用|
 |Phigros点歌|`/p music`|随机听Phigros的歌曲，还在研究MusicShare的xml消息（以后改|
-|随机Tips|`/p tips`|随机发送一条Tips|
+|随机Tips|`/p tip`|随机发送一条Tip|
 |获取stk|`/p (getstk/bindhelp)`|获取SessionToken的方法|
 |以下为管理员命令|
 |更新插件|`/p (force)update`|更新/强制更新本插件|
