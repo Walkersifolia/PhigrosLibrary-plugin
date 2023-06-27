@@ -1,5 +1,5 @@
 import plugin from '../../../lib/plugins/plugin.js';
-import fs from 'node:fs';
+import GetData from '../model/userdata/getdata.js';
 
 export class data extends plugin{
     constructor() {
@@ -18,7 +18,13 @@ export class data extends plugin{
     }
 
     async data (e) {
-        const userid = `${e.user_id}`
-        const sessiontoken = fs.readFileSync(`./plugins/PhigrosLibrary-plugin/data/userdata/${userid}.js`, 'utf-8');
+        const url = await GetData.SaveUrl(e)
+        //logger.mark(url)
+        const response = await fetch(`http://127.0.0.1:9090/data/${url}`)
+        const textdata = await response.text()
+        const numbers = textdata.split(',').map(Number)
+        const result = (numbers[2] * 1024 + numbers[1]) + (numbers[0] / 1024)
+        const data = result.toFixed(2)
+        e.reply(`你当前拥有${data}MB`)
     }
 }
