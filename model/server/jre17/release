@@ -1,0 +1,2 @@
+JAVA_VERSION="17.0.6"
+MODULES="java.base java.logging java.net.http jdk.crypto.ec jdk.unsupported"
