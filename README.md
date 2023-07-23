@@ -61,7 +61,7 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 首先要装java运行环境，至少为java17。然后cd到`./plugins/PhigrosLibrary-plugin/model/server`文件夹，执行`start.sh`，如果提示`Permission denied`字样的执行`sudo chmod -R 777 ./server`，`./server`为你存放服务端的路径。（由于我不是Linux系统所以我没有试过，据说可以）
 
 #### MacOS用户
-我穷，用不起MacOS，身边也没有用户（
+我穷，用不起MacOS，身边也没有用户（如果有的话，且步骤不一样，还请修改此处readme并且提个PR，非常感谢您）
 
 ## 注意事项（必看！！！）
 ### 关于控制台报错
