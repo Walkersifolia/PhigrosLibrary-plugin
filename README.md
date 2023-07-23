@@ -6,6 +6,9 @@
 
 插件目前还暂时是半成品，因为是要测试跨域脚本和文件服务器，还没有添加配置项以及自动更新曲绘，想要尝鲜的可以下载，也请及时关注此仓库的更新。
 
+# 腾讯我测你码
+
+![~NK4TQZ2~J7~_LZ_1__CGBR_tmb](https://github.com/Walkersifolia/PhigrosLibrary-plugin/assets/129571444/081b9fee-bb49-48fa-be71-6e74f331152e)
 
 # 单插件版本（.js）
 
