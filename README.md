@@ -50,15 +50,15 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 ```
 
 
-### 4.下载PhigrosLibrary服务端
+### 4.手动启动PhigrosLibrary服务端
 
 [PhigrosLibrary项目地址](https://github.com/7aGiven/PhigrosLibrary)
 
 #### Windows用户
-去Releases里，找到并下载下载名为`PhigrosRpc-3.x.x.x-jre17.zip`（版本号会更新，必须要带有jre17字样）的Release，解压之后放在任意地方，双击启动`start.cmd`，如果不想要窗口可以右键`start.cmd`，选择编辑，然后在最后一行换行输入`nogui`（当然我并不建议这么做因为开启服务端窗口能更好的检测到报错）
+打开`./plugins/PhigrosLibrary-plugin/model/server`文件夹，安装并且正确配置了jre17的用户，双击`start.bat`，未安装或者双击`start.bat`报错的用户，双击`start-without-jre.bat`出现cmd窗口并且第一行内容为`Active code page: 65001`即为运行成功，不要关闭窗口
 
 #### Linux用户
-首先要装java运行环境，至少为java17，然后去Releases里，找到并下载名为`PhigrosRpc-3.x.x.x-nojre.zip`（版本号会更新，必须要带有nojre字样）的Release，解压之后放在任意地方，想办法运行`start.sh`，如果运行不了，注意看看.sh文件内启动的jar文件名字是否完全一样。如果提示`Permission denied`字样的执行`sudo chmod -R 777 ./PhigrosLibrary`，`PhigrosLibrary`为你存放服务端的路径，自己重命名了就改一下。（由于我不是Linux系统所以我没有试过，据说可以）
+首先要装java运行环境，至少为java17。然后cd到`./plugins/PhigrosLibrary-plugin/model/server`文件夹，执行`start.sh`，如果提示`Permission denied`字样的执行`sudo chmod -R 777 ./server`，`./server`为你存放服务端的路径。（由于我不是Linux系统所以我没有试过，据说可以）
 
 #### MacOS用户
 我穷，用不起MacOS，身边也没有用户（
