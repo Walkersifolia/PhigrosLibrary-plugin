@@ -1,14 +1,12 @@
 # PhigrosLibrary-Plugin
 # 在研究github action，以后直接自动更新定数表（曲绘考虑写不写）
 ## 下了会报错，由于我调用的puppeteer模块喵崽并不自带，但是我又不常用喵崽，所以目前还在试图重写两个崽都能用的代码（直接把puppeteer塞插件里）
-## 推荐移步[Catrong](https://github.com/catrong)的[phi-plugin](https://github.com/catrong/phi-plugin)项目，由于我是初学者所以写的并不是很好，功能也不是很多（逃
+## 推荐移步[Catrong](https://github.com/catrong)的[phi-plugin](https://github.com/catrong/phi-plugin)项目，由于我是初学者所以写的并不是很好，功能也不是很多（\废酱/\废酱/\废酱/
 `PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能。
 
-插件目前还暂时是半成品，因为是要测试跨域脚本和文件服务器，还没有添加配置项以及自动更新曲绘，想要尝鲜的可以下载，也请及时关注此仓库的更新。
+# 腾讯我测你码（第七个号了）
 
-# 腾讯我测你码（第六个号了）
-
-![~NK4TQZ2~J7~_LZ_1__CGBR_tmb](https://github.com/Walkersifolia/PhigrosLibrary-plugin/assets/129571444/081b9fee-bb49-48fa-be71-6e74f331152e)
+![image](https://github.com/Walkersifolia/PhigrosLibrary-plugin/assets/129571444/0753b3ff-f6cd-4671-b0ef-2cc220ad2cc5)
 
 # 单插件版本（.js）
 
