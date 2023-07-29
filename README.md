@@ -1,5 +1,5 @@
 # PhigrosLibrary-Plugin
-# 本项目暂时停止更新，曲绘与音乐会继续更新，插件本体可以正常使用，但暂时不会再有新功能了。具体原因与鸽游某位官方人员有关，他成功的让我对Phigros充满热情转变到有些讨厌
+# 本项目暂时停止更新，曲绘与音乐会继续更新，插件本体可以正常使用，但暂时不会再有新功能了。
 ## 推荐移步[Catrong](https://github.com/catrong)的[phi-plugin](https://github.com/catrong/phi-plugin)项目（我也会去维护），由于我是初学者所以写的并不是很好，功能也不是很多（\废酱/\废酱/\废酱/
 `PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能。
 
