@@ -49,8 +49,6 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 
 ### 4.手动启动PhigrosLibrary服务端
 
-[PhigrosLibrary项目地址](https://github.com/7aGiven/PhigrosLibrary)
-
 #### Windows用户
 打开`./plugins/PhigrosLibrary-plugin/model/server`文件夹，安装并且正确配置了jre17的用户，双击`start.bat`，未安装或者双击`start.bat`报错的用户，双击`start-without-jre.bat`出现cmd窗口并且第一行内容为`Active code page: 65001`即为运行成功，不要关闭窗口
 
@@ -110,7 +108,7 @@ git clone https://github.com/Walkersifolia/MusicLowRes.git ./music
 ## 特别感谢
 B19 UI设计、单js插件版本制作、跨域脚本和文件服务器：[七星QXX](https://github.com/QiXingQXX)
 
-PhigrosLibrary服务端：[万能の文酱](https://github.com/7aGiven)
+PhigrosLibrary服务端：万能の文酱
 
 ## 声明
 本项目仅供学习交流使用，严禁用于侵犯 `PHIGROS®`、`Phigros 玩家` 以及 `南京鸽游网络有限公司` 等主体的权益用途！
