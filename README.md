@@ -1,6 +1,6 @@
 # PhigrosLibrary-Plugin
 # 本项目暂时停止更新，曲绘与音乐会继续更新，插件本体可以正常使用，但暂时不会再有新功能了。
-# 鸽游更改了存档格式以及加密方式，本插件暂不可用
+# 鸽游更改了存档格式以及加密方式，在新的解密出来之前本插件暂不可用
 ## 推荐移步[Catrong](https://github.com/catrong)的[phi-plugin](https://github.com/catrong/phi-plugin)项目（我也会去维护），（\废酱/\废酱/\废酱/
 `PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能。
 
