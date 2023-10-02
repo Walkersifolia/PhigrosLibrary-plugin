@@ -3,11 +3,7 @@
 ## 移步[Catrong](https://github.com/catrong)的[phi-plugin](https://github.com/catrong/phi-plugin)项目（我当前维护），（\废酱/\废酱/\废酱/
 `PhigrosLibrary-Plugin`是基于`Yunzai-Bot V3`的功能插件，可以查询Phigros B19并生成成绩图，以及包含了一些其他的娱乐功能。
 
-# 腾讯我测你码（第七个号了）
-
-![image](https://github.com/Walkersifolia/PhigrosLibrary-plugin/assets/129571444/0753b3ff-f6cd-4671-b0ef-2cc220ad2cc5)
-
-# 单插件版本（.js）
+# 单插件版本（当前也不可用）
 
 如果不想要高清曲绘以及其他功能，可以下载单插件版本，单插件版本只有B19功能，然后放到`./plugins/example`文件夹
 
